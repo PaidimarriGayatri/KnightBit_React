@@ -1,0 +1,631 @@
+/* navbar first div  */
+#div{
+    display: flex;
+    /* margin-left: 190px; */
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    color: white;
+    padding-top: 30px;
+    /* border: 2px solid red; */
+    /* margin-bottom: 30px; */
+    background: rgba(0,0,0,0.12);
+}
+
+/* .links{
+    margin-left: 10px;
+  
+} */
+/* links of nav */
+#div {
+    font-size: 25px;
+    color: white;
+    /* border: 2px solid red; */
+    /* justify-content: ; */
+    /* border: 2px solid rgb(237, 236, 238); */
+}
+
+.demo{
+    /* border:  2px solid red; */
+    height: 80px;
+    position: absolute;
+    left:  60px;
+    gap: 30px;
+    color: white;
+    display: flex;
+
+    align-items: center;
+}
+.lin{
+    text-decoration: none;
+    color: rgba(252, 249, 250, 0.986);
+    font-size: 23px;
+    font-weight: 500;
+    gap: 30px;
+}
+.lin:hover{
+    color: #9e29d9;
+}
+.dem{
+    /* border: 2px solid rgb(232, 234, 232); */
+    margin-left: 990px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    /* width: 100px; */
+    font-size: 27px;
+    /* padding-right: 30px; */
+    /* gap: 30px; */
+    transition: all 0.5s;
+
+}
+.dem:hover{
+    color: #c05ef9;
+    cursor: pointer;
+    /* border: 2px solid red; */
+}
+/* logo of page */
+#logo{
+    margin-left: -100px;
+    height: 80px;
+    width: 180px;
+}
+
+/* burger */
+.burger{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+/* delicious food */
+.head{
+  font-size: 80px;
+  margin-top: -600px;
+  margin-left: 210px;
+  color: azure;
+}
+
+/* order btn */
+.btn2{
+    /* margin-top: -40px; */
+    margin-left: 670px;
+    background-color: #FF5672;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+    border: none;
+    color: azure;
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    font-weight: 600px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+/* or  */
+.or{
+    margin-left: 740px;
+    margin-top: 20px;
+    color: azure;
+    font-size: 23px;
+}
+.iosstore{
+    height: 80px;
+    width: 200px;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    transition: all .5s;
+    margin-left:540px;
+    /* margin:  0 30px; */
+    /* animation-fill-mode: forwards; */
+}
+.andriod{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 14px;
+    background-repeat: no-repeat;
+    transform: scale(1.2);
+    transition: all .5s;
+    /* margin: 0 30px; */
+    /* animation-fill-mode: forwards; */
+}
+
+/* features items */
+.rev{
+    margin-top: 90px;
+    /* height: 100px; */
+    /* border: 2px solid green; */
+}
+.heade{
+    padding: 50px;
+    text-align: center;
+    font-size: 47px;
+    font-weight: 500;
+    margin-top: 187px; 
+    /* border: 2px solid blue; */
+}
+/* items section */
+.div2{
+    padding: 50px;
+    margin-top: 30px;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+    font-size: 22px;
+    text-align: center; 
+}
+/* para id */
+.fea{
+    width: 200px;
+    padding-left: 20px;
+}
+
+.rev1{
+    margin-top: 60px;
+
+}
+.burgerboy{
+ height: 100%;
+ width: 100%;
+ background-size: cover;
+}
+#joy{
+    font-size: 100px;
+    margin-top: -570px;
+    margin-left: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+}
+/* section4 */
+.cakes{
+    height: 800px;
+    width: 100%;
+    margin-top: 400px;
+}
+.bug{
+    font-size: 100px;
+    margin-top: -570px;
+    margin-left: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+}
+.btnmenu{
+    margin-top: -50px;
+    margin-left: 660px;
+    border-radius: 30px;
+    border: 2px solid white;
+    width: 230px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.12);
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* footer sect */
+
+.rev3{
+    margin-top: 155px;
+    padding: 50px;
+}
+/* header */
+.foot{
+    padding: 50px;
+    text-align: center;
+    font-size: 45px;
+     font-weight: 500;
+     margin-top: 30px;  
+}
+.sub{
+    font-size: 25px; 
+    /* font-weight: 300; */
+    margin-left: 20px;
+}
+.msg{
+    margin-left: 10px; 
+}
+.para1{
+    margin-top:-30px;
+    margin-left: 80px;
+    font-weight: 400;
+}
+.call{
+    margin-left: 10px;   
+}
+#pm{
+    margin-left: 80px;
+    margin-top: -40px;
+}
+#quick{
+    margin-left: 480px;
+    margin-top: -290px;
+    font-size: 25px;
+}
+.li{
+    margin-left: 450px;
+    margin-top: 30px;
+    font-size: 19px;
+    text-decoration: none;
+    height: 8px;
+
+    /* text-decoration: none; */
+    color: #FF5672;
+}
+#para3{
+    margin-left: 800px;
+    margin-top: -320px;
+    font-size: 20px;
+}
+#input{
+    margin-top: 50px;
+    margin-left: 800px;
+    height: 80px;
+    width: 450px;
+    border-radius: 50px ;
+    font-size: 25px;
+    text-align: center;
+}
+#bot{
+    margin-top: -100px;
+    margin-left: 1190px;
+    height:95px;
+    width: 70px;
+}
+.h3{
+    /* border: 2px solid red; */
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+    /* border: 2px solid red; */
+}
+#h6{
+    font-size: 25px;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    margin-right: 50px;
+}
+#p4{
+    margin-top: 30px;
+    width: 280px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+#h6{
+    font-size: 30px;
+    margin-left: 460px;
+    margin-top: -200px;
+}
+#li3{
+    margin-left: 440px;
+    margin-top:-2px;
+    width: 220px;
+    font-size: 18px;
+}
+#follow{
+    margin-left: 880px;
+    margin-top: -180px;
+     font-size: 30px;
+}
+.imh{
+    margin-right: 35px;
+    /* justify-content: space-between; */
+}
+.brand{
+    margin-left: 580px;
+    margin-top: 58px;
+
+}
+.kbfoot{
+    height: 40px;
+    width:60px;
+    margin-left: 45px;
+    margin-bottom: -60px; 
+}
+#pink{
+    padding: 16px;
+    margin-bottom: -20px;
+    color: white;
+    background-color: #FF5672;
+    text-align: center;
+    font-size: 15px;
+    /* border: 2px solid rgb(56, 86, 206); */
+}
+.profile{
+    /* border: 2px solid red; */
+     margin-left: 840px;
+     margin-top: -30px;
+    /* padding-bottom: 20px; */
+}
+
+/* about  */
+.about{
+    height: 100%;
+    width: 100%;
+}
+
+#cont1{
+    margin-top: -500px;
+    margin-left: 160px;
+    font-size: 52px;
+    line-height: 50px;
+    font: bolder;
+    width: 590px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+}
+/* about section */
+#food{
+    margin-top: 200px;
+    margin-left: 140px;
+    width: 480px;
+}
+#cont2{
+    /* position: relative; */
+    /* left: 750px; */
+    font-size: 20px;
+    /* top: -100px; */
+    margin-top: -100px;
+    margin-left: 740px;
+ }
+#cont4{
+    text-align: justify;
+    height: 100px;
+    width: 570px;
+    font-size: 20px;
+    /* border: 2px solid red; */
+    /* margin-bottom: -90px; */
+    margin-left: 50px;
+    margin-top: 160px;
+    /* left: 10px; */
+}
+#abtimg3{
+    height: 430px;
+    width: 680px;
+    margin-top: -140px;
+    margin-left: 730px;
+    /* top: -100px; */
+    /* left:20px; */
+   
+ }
+ #abtimg4{
+    height: 430px;
+   width: 620px;
+
+   margin-top: 80px;
+   margin-left: 100px;
+
+}
+#cont5{
+    text-align: justify;
+    height: 100px;
+    width: 600px;
+    font-size: 20px;
+   margin-left: 770px;
+   margin-top: -250px;
+}
+
+#loc{
+    width: 530px;
+    margin-top: 190px;
+    padding-bottom:- 80px;
+    margin-left: 60px;
+    /* border: 2px solid red; */
+}
+#loch1{
+    margin-top: -20px;
+    font-size: 39px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    margin-left: 80px;
+}
+#b{
+    margin-left: 50px;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 10px;
+}
+#bol{
+    font-size: 23px;
+    font-weight: 300;
+}
+.time{
+    margin-left: 310px;
+    margin-top: -23px;
+    font-size: 18px;
+    font-weight: 200;
+    /* margin-bottom: -20px; */
+}
+#botapps{
+    width: 500px;
+    margin-top: -300px;
+    margin-left: 880px;
+}
+#profile{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 2px;
+    gap: 30px;
+    /* justify-content: space-between; */
+}
+.follow{
+    margin-left: 30px;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+/* menu */
+
+
+
+
+/* franchies */
+#fra{
+    color: white;
+    margin-top: -550px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#get{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#ab{
+        margin-top: 50px;
+        margin-left: 675px;
+        background-color: palevioletred;
+        border-radius:20px;
+        border: solid palevioletred;
+        color: azure;
+        height: 45px;
+        width: 180px;
+        font-size: 20px;
+        font-weight: 600px;
+    }
+ #wat{
+    margin-top: 50px;
+    margin-left: 740px;
+    color: azure;
+    font-weight: bolder;
+    }
+    #mi{
+        margin-top: 250px;
+        text-align: center;
+        padding: 50px;
+    }
+    #hr{
+        /* color: purple; */
+        /* border: 1px solid purple; */
+        border-bottom: 1px solid purple;
+    }
+    #p1,#p2{
+        font-size: 20px;
+        width: 570px;
+        text-align: center;
+        margin-left: 430px;
+        margin-top: 30px;
+    }
+    #key,#f{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    #ap,#req{
+        text-align: center;
+        font-size: 25px;
+    }
+    #ben{
+        height: 500px;
+        width: 900px;
+        margin-left: 350px;
+    }
+    #adobe{
+        height: 40px;
+        margin-left: -20px;
+        /* border: 2px solid blue; */
+    }
+    #c{
+        /* border: 2px solid green; */
+        height: 30px;
+        width: 30px;
+        margin-right: -90px; 
+    }
+    #in{
+        /* border: 2px solid red; */
+        margin-left: 150px;
+        height: 30px;
+    }
+    #ap{
+        padding: 50px;
+    }
+    #a{
+        height: 70px;
+        text-align: center;
+        padding-bottom: 40px;
+        /* border: 2px solid red; */
+        margin-top: -20px;
+        margin-left: 175px;
+    }
+    #b{
+        margin-top: -25px;
+        font-size: 20px;
+        width: 250px;
+        text-align: center;
+        margin-left: 89px;
+    }
+    #c{
+        width: 240px;
+        /* justify-content: space-between; */
+        text-align: center;
+        margin-left: 100px;
+        margin-top: -30px;
+    }
+    #fr{
+        display: inline-block;
+        width: 210px;
+        margin-left: 50px;
+        padding: 40px;
+    }
+  
+   
+    #video{
+        height: 100%;
+        width: 100%;
+        /* background: url("https://knight-bite.com/res/franchise/franchise_playback.mp4"); */
+    }
+
+    
+
+   .bannt{
+    border: 2px solid white;
+    /* height: 20%; */
+    width: 99.5%;
+    
+   } 
+.menu{
+    /* border: 2px solid red; */
+    display: grid;
+    margin-top: -590px;
+    /* margin-top: -450px; */
+    /* padding: 0 200px; */
+    row-gap: 60px;
+    column-gap: 50px;
+    /* width: 100%; */
+    grid-template-columns: repeat(3,1fr);
+}
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.menu-item:hover{
+    filter: brightness(70%);
+}
+.menu-item img:first-of-type{
+    height: 120px;
+
+}
+.menu-item h1{
+    color: white;
+    font-size: 40px;
+    /* font-family: 'nicotineregular'; */
+    margin: 0 0 15px 0;
+}
+.menu-item img:last-of-type{
+    height: 30px;
+    width: 30px;
+}
